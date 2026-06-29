@@ -1,0 +1,50 @@
+body {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'National Park', sans-serif;
+    background-color: #C8D3FA;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #00249C;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.new-task {
+    width: 1000px;
+    height: auto;
+}
+
+.new-task-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+    color: #001866;
+}
+
+.new-task-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 43px;
+}
+
+.new-task-button:hover img {
+    opacity: 70%;
+}
+
+.new-task-button:active img {
+    opacity: 30%;
+}
