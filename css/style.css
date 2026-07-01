@@ -140,7 +140,8 @@ h2 {
     background-color: #D0E9F9;
 }
 
-h3 {
+h3,
+.empty-text {
     max-width: 187px;
     margin: 0;
     color: #001866;
@@ -209,6 +210,47 @@ h3 {
     border-radius: 50%;
     border: 1px solid #517AFF;
     padding: 0;
+}
+
+.filter-container {
+    width: 587px;
+    margin-bottom: 40px;
+}
+
+.input-container #search {
+    width: 583px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 40px;
+}
+
+.filter-button {
+    width: 155px;
+    height: 60px;
+    background-color: #7595FD;
+    color: #00249C;
+    font-size: 20px;
+    border: 1px solid #00249C;
+    border-radius: 7px;
+}
+
+.filter-button:hover {
+    opacity: 70%;
+}
+
+.filter-button:active {
+    opacity: 30%;
+}
+
+#completed {
+    width: 197px;
+}
+
+.selected {
+    background-color: #00249C;
+    color: #FFF;
 }
 
 .footer {
